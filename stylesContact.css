@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;800;900&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@500;700&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+img {
+    display: block;
+}
+
+.top {
+    width: 100%;
+    position: relative;
+}
+
+.imageCont img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 10.83vw;
+}
+
+.leftSide {
+    padding: 1.66vw;
+    background-color: #D5966C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSide {
+    padding: 1.66vw 2.22vw;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.38vw;
+    line-height: 1.66vw;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+    background-color: #151515;
+
+}
+
+.leftSide img {
+    width: 0.55vw;
+    height: 1.66vw;
+}
+
+.button:hover .leftSide {
+    background-color: #151515;
+}
+
+.button:hover .rightSide {
+    background-color: #D5966C;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .imageCont {
+        height: 78.12vw;
+    }
+
+    .button {
+        left: 5.07vw;
+    }
+
+    .leftSide {
+        padding: 3.12vw;
+        background-color: #D5966C;
+    }
+
+    .leftSide img {
+        width: 1.04vw;
+        height: 3.12vw;
+    }
+
+    .rightSide {
+        padding: 3.12vw 4.55vw;
+        font-size: 2.60vw;
+        line-height: 3.12vw;
+        letter-spacing: 0.47vw;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .imageCont {
+        height: 153.06vw;
+    }
+
+    .button {
+        left: 0vw;
+    }
+
+    .leftSide {
+        padding: 6.4vw;
+    }
+
+    .leftSide img {
+        width: 2.13vw;
+        height: 6.4vw;
+    }
+
+    .rightSide {
+        padding: 8.53vw 6.4vw;
+        font-size: 5.33vw;
+        line-height: 6.4vw;
+        letter-spacing: 0.96vw;
+    }
+}
+
+
+/* -----------------------middle section----------------------- */
+
+
+.middle {
+    padding: 8.88vw 11.45vw;
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont {
+    display: flex;
+    width: 77.08vw;
+    justify-content: space-between;
+
+}
+
+.middleRightSide {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.middleLeftSide h1 {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.86vw;
+    line-height: 4.86vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 24.30vw;
+}
+
+.middleTop {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.08vw;
+    line-height: 2.08vw;
+    text-transform: uppercase;
+    color: #D5966C;
+}
+
+.address {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.52vw;
+    line-height: 2.22vw;
+    color: #FFFFFF;
+    margin: 1.66vw 0vw;
+}
+
+.middleBottom {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.52vw;
+    line-height: 2.22vw;
+    color: #FFFFFF;
+    width: 37.5vw;
+}
+
+@media only screen and (max-width: 375px) {
+    .middle {
+        padding: 0vw;
+    }
+
+    .cont {
+        width: 91.46vw;
+        flex-direction: column;
+    }
+
+    .middleLeftSide h1 {
+        width: 100%;
+        font-size: 13.33vw;
+        line-height: 12vw;
+        padding: 12.8vw 0vw;
+    }
+
+    .middleTop {
+        font-size: 8.53vw;
+        line-height: 8.53vw;
+        margin-bottom: 5.33vw;
+    }
+
+    .address {
+        font-size: 4.8vw;
+        line-height: 7.46vw;
+        margin-bottom: 5.33vw;
+    }
+
+    .middleBottom {
+        font-size: 4.8vw;
+        line-height: 7.46vw;
+        width: 91.46vw;
+        margin-bottom: 14.93vw;
+    }
+}
+
+
+/* -----------------------footer section----------------------- */
+
+.footer {
+    padding: 5.55vw 11.45vw;
+    background-color: #D5966C;
+    color: #151515;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLogo h1 {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2vw;
+    line-height: 2vw;
+    text-transform: uppercase;
+    width: 11.11vw;
+}
+
+.footerMiddleSide h1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25vw;
+    line-height: 1.94vw;
+    color: #151515;
+    width: 29.86vw;
+}
+
+/* .footerLeftSide{
+    display: flex;
+    flex-direction: row;
+} */
+.socLogoCont {
+    display: flex;
+    flex-direction: row;
+    filter: invert(100%) sepia(4%) saturate(7%) hue-rotate(360deg) brightness(96%) contrast(98%);
+}
+
+.socLogoCont img {
+    width: 1.38vw;
+    height: 1.38vw;
+}
+
+.insta {
+    margin: 0vw 1.38vw;
+}
+
+.socLogoCont div:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .footerMiddleSide h1 {
+        font-size: 2.08vw;
+        line-height: 3.38vw;
+        width: 36.58vw;
+    }
+
+    .socLogoCont img {
+        width: 2.60vw;
+        height: 2.60vw;
+    }
+
+    .footerLogo h1 {
+        font-size: 2.6vw;
+        line-height: 2.5vw;
+        width: 14.32vw;
+    }
+
+    .footer {
+        padding: 5.208vw 7.29vw;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footerMiddleSide {
+        margin: 10.66vw 0vw;
+    }
+
+    .footerLogo h1 {
+        font-size: 5.2vw;
+        line-height: 5vw;
+        width: 29.33vw;
+    }
+
+    .footerMiddleSide h1 {
+        font-size: 4.26vw;
+        line-height: 6.93vw;
+        width: 82.93vw;
+    }
+
+    .socLogoCont img {
+        width: 5.33vw;
+        height: 5.33vw;
+    }
+
+    .insta {
+        margin: 0vw 5.33vw;
+    }
+}
